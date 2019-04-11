@@ -1,0 +1,30 @@
+{
+    "compatibleVersion": 3,
+    "bundleVersion": 1,
+    "icon": "icon.png",
+    "commands": [
+        {
+            "name": "Show Message",
+            "identifier": "parkers-experiments.show-message",
+            "script": "./showMessage.js"
+        },
+        {
+            "name": "API",
+            "identifier": "parkers-experiments.api-request",
+            "script": "./apiRequest.js"
+        },
+        {
+            "name": "Change Text",
+            "identifier": "parkers-experiments.change-text",
+            "script": "./changeText.js"
+        }
+    ],
+    "menu": {
+        "title": "parkers-experiments",
+        "items": [
+            "parkers-experiments.show-message",
+            "parkers-experiments.change-text",
+            "parkers-experiments.api-request"
+        ]
+    }
+}
